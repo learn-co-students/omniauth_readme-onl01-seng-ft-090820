@@ -14,11 +14,15 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'thin'
+gem 'dotenv-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-github'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -29,6 +33,7 @@ gem 'turbolinks'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
+#gem 'puma'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
