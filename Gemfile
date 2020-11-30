@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'dotenv-rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~>1.3.13'
 # Use SCSS for stylesheets
@@ -13,7 +16,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'thin'
+# gem 'thin'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
